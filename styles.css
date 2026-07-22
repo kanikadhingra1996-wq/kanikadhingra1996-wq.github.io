@@ -425,6 +425,18 @@ code { font-family: var(--font-mono); font-size: .88em; }
 .contact p { color: var(--ink-soft); font-size: 17px; }
 .contact-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 28px 0 16px; }
 .contact-fine { font-size: 13px; color: var(--ink-faint); }
+.work-auth { margin-top: 40px; padding-top: 28px; border-top: 1px solid var(--line); }
+.wa-label { font-size: 12.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-faint); }
+.wa-countries { display: flex; justify-content: center; gap: clamp(28px, 6vw, 56px); flex-wrap: wrap; margin-top: 20px; }
+.wa-country { display: flex; align-items: center; gap: 14px; text-align: left; }
+.wa-map { width: 84px; height: 64px; flex: none;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  -webkit-mask-position: center; mask-position: center;
+  -webkit-mask-size: contain; mask-size: contain; mask-mode: alpha; }
+.wa-map.wa-us { background: var(--ok); -webkit-mask-image: url(assets/maps/us.svg); mask-image: url(assets/maps/us.svg); }
+.wa-map.wa-in { background: var(--accent); -webkit-mask-image: url(assets/maps/in.svg); mask-image: url(assets/maps/in.svg); }
+.wa-txt strong { display: block; font-size: 15px; color: var(--ink); }
+.wa-txt small { font-size: 12.5px; color: var(--ink-faint); }
 .footer { max-width: var(--maxw); margin: 0 auto; padding: 40px clamp(18px,4vw,40px); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--ink-faint); border-top: 1px solid var(--line); }
 
 /* ---------- MODAL ---------- */
