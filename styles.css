@@ -440,7 +440,7 @@ code { font-family: var(--font-mono); font-size: .88em; }
 /* filled with flag colors for fun */
 .wa-map.wa-us {
   background-image:
-    linear-gradient(#3c3b6e, #3c3b6e),
+    url(assets/maps/us-canton.svg),
     repeating-linear-gradient(to bottom, #b22234 0 7.69%, #ffffff 7.69% 15.38%);
   background-size: 42% 53.8%, 100% 100%;
   background-position: left top, left top;

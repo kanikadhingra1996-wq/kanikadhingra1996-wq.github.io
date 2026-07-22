@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 41">
+  <rect width="42" height="41" fill="#3c3b6e"/>
+  <g fill="#ffffff">
+    <!-- row 1 (6) -->
+    <circle cx="3.5" cy="2.5" r="1.1"/><circle cx="10.5" cy="2.5" r="1.1"/><circle cx="17.5" cy="2.5" r="1.1"/><circle cx="24.5" cy="2.5" r="1.1"/><circle cx="31.5" cy="2.5" r="1.1"/><circle cx="38.5" cy="2.5" r="1.1"/>
+    <!-- row 2 (5) -->
+    <circle cx="7" cy="7" r="1.1"/><circle cx="14" cy="7" r="1.1"/><circle cx="21" cy="7" r="1.1"/><circle cx="28" cy="7" r="1.1"/><circle cx="35" cy="7" r="1.1"/>
+    <!-- row 3 (6) -->
+    <circle cx="3.5" cy="11.5" r="1.1"/><circle cx="10.5" cy="11.5" r="1.1"/><circle cx="17.5" cy="11.5" r="1.1"/><circle cx="24.5" cy="11.5" r="1.1"/><circle cx="31.5" cy="11.5" r="1.1"/><circle cx="38.5" cy="11.5" r="1.1"/>
+    <!-- row 4 (5) -->
+    <circle cx="7" cy="16" r="1.1"/><circle cx="14" cy="16" r="1.1"/><circle cx="21" cy="16" r="1.1"/><circle cx="28" cy="16" r="1.1"/><circle cx="35" cy="16" r="1.1"/>
+    <!-- row 5 (6) -->
+    <circle cx="3.5" cy="20.5" r="1.1"/><circle cx="10.5" cy="20.5" r="1.1"/><circle cx="17.5" cy="20.5" r="1.1"/><circle cx="24.5" cy="20.5" r="1.1"/><circle cx="31.5" cy="20.5" r="1.1"/><circle cx="38.5" cy="20.5" r="1.1"/>
+    <!-- row 6 (5) -->
+    <circle cx="7" cy="25" r="1.1"/><circle cx="14" cy="25" r="1.1"/><circle cx="21" cy="25" r="1.1"/><circle cx="28" cy="25" r="1.1"/><circle cx="35" cy="25" r="1.1"/>
+    <!-- row 7 (6) -->
+    <circle cx="3.5" cy="29.5" r="1.1"/><circle cx="10.5" cy="29.5" r="1.1"/><circle cx="17.5" cy="29.5" r="1.1"/><circle cx="24.5" cy="29.5" r="1.1"/><circle cx="31.5" cy="29.5" r="1.1"/><circle cx="38.5" cy="29.5" r="1.1"/>
+    <!-- row 8 (5) -->
+    <circle cx="7" cy="34" r="1.1"/><circle cx="14" cy="34" r="1.1"/><circle cx="21" cy="34" r="1.1"/><circle cx="28" cy="34" r="1.1"/><circle cx="35" cy="34" r="1.1"/>
+    <!-- row 9 (6) -->
+    <circle cx="3.5" cy="38.5" r="1.1"/><circle cx="10.5" cy="38.5" r="1.1"/><circle cx="17.5" cy="38.5" r="1.1"/><circle cx="24.5" cy="38.5" r="1.1"/><circle cx="31.5" cy="38.5" r="1.1"/><circle cx="38.5" cy="38.5" r="1.1"/>
+  </g>
+</svg>
