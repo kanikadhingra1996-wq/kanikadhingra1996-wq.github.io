@@ -113,6 +113,16 @@ code { font-family: var(--font-mono); font-size: .88em; }
   .hero-inner { flex-direction: column-reverse; align-items: flex-start; gap: 28px; }
   .hero-portrait { width: 150px; }
 }
+.hero-status { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
+.status-pill { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 500; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink-soft); }
+.status-pill.available { color: var(--ok); border-color: color-mix(in srgb, var(--ok) 40%, var(--line)); background: color-mix(in srgb, var(--ok) 10%, var(--surface)); }
+.pulse-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 0 0 var(--ok); animation: pulse 2s infinite; }
+@keyframes pulse {
+  0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--ok) 60%, transparent); }
+  70%  { box-shadow: 0 0 0 8px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+@media (prefers-reduced-motion: reduce) { .pulse-dot { animation: none; } }
 .eyebrow {
   font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
   color: var(--accent); margin-bottom: 20px;
