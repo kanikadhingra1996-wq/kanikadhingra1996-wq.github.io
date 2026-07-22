@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+data/status_counts.json
+data/metrics.json
+.DS_Store

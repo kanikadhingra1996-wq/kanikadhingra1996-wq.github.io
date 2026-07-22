@@ -1,0 +1,22 @@
+id,jira,title,client,project,type,status,priority,owner,start,due,progress,points,sprint,tags
+CC-101,CART-482,Checkout requirements specification (BRD),Cartly Commerce,Checkout & Payments,Requirements Doc,Done,High,Kanika Dhingra,2026-05-04,2026-05-22,100,8,Sprint 12,requirements;stakeholders
+CC-102,CART-485,As-is vs. to-be checkout flow maps,Cartly Commerce,Checkout & Payments,Process Map,Done,Medium,Kanika Dhingra,2026-05-11,2026-05-29,100,5,Sprint 12,process;BPMN
+CC-103,CART-491,Payment gateway integration user stories,Cartly Commerce,Checkout & Payments,User Stories,In Review,High,Kanika Dhingra,2026-06-15,2026-07-24,80,8,Sprint 15,agile;backlog
+CC-104,CART-498,Cart-abandonment analytics dashboard,Cartly Commerce,Checkout & Payments,Analytics Dashboard,In Progress,High,Kanika Dhingra,2026-07-06,2026-08-07,45,13,Sprint 16,python;data-viz;KPI
+CC-105,CART-503,Checkout UAT plan & acceptance criteria,Cartly Commerce,Checkout & Payments,UAT Plan,Backlog,Medium,Kanika Dhingra,2026-07-27,2026-08-21,0,5,Sprint 17,testing;UAT
+VT-201,VOY-77,Stakeholder analysis & RACI matrix,Voyara Travel,Booking Funnel Revamp,Stakeholder Analysis,Done,High,Kanika Dhingra,2026-04-20,2026-05-08,100,5,Sprint 9,stakeholders;RACI
+VT-202,VOY-83,Booking funnel requirements spec (BRD),Voyara Travel,Booking Funnel Revamp,Requirements Doc,Done,Critical,Kanika Dhingra,2026-05-04,2026-05-26,100,8,Sprint 10,requirements;conversion
+VT-203,VOY-91,Search & booking flow BPMN diagrams,Voyara Travel,Booking Funnel Revamp,Process Map,In Review,High,Kanika Dhingra,2026-06-22,2026-07-20,90,5,Sprint 14,process;BPMN
+VT-204,VOY-96,Booking data migration mapping,Voyara Travel,Booking Funnel Revamp,Data Mapping,Blocked,Critical,Kanika Dhingra,2026-06-29,2026-07-17,60,8,Sprint 14,data;SQL;migration
+VT-205,VOY-104,Accessibility (WCAG) requirements review,Voyara Travel,Booking Funnel Revamp,Requirements Doc,In Progress,Medium,Kanika Dhingra,2026-07-13,2026-08-03,30,5,Sprint 16,accessibility;requirements
+FL-301,LEAF-12,Sales KPI baseline report,Freshleaf FMCG,Retail Insights Platform,Analytics Dashboard,Done,High,Kanika Dhingra,2026-05-18,2026-06-05,100,8,Sprint 11,python;KPI;data-viz
+FL-302,LEAF-19,Trade-promotion requirements workshop,Freshleaf FMCG,Retail Insights Platform,Requirements Doc,Done,Medium,Kanika Dhingra,2026-06-01,2026-06-19,100,5,Sprint 13,requirements;workshop
+FL-303,LEAF-24,Consumer insights data model,Freshleaf FMCG,Retail Insights Platform,Data Mapping,In Progress,High,Kanika Dhingra,2026-07-06,2026-07-31,55,13,Sprint 16,data;SQL;modeling
+FL-304,LEAF-31,Promotion ROI business case,Freshleaf FMCG,Retail Insights Platform,Business Case,In Progress,High,Kanika Dhingra,2026-07-13,2026-07-28,40,8,Sprint 16,business-case;marketing
+FL-305,LEAF-38,Demand forecast dashboard v2,Freshleaf FMCG,Retail Insights Platform,Analytics Dashboard,Backlog,Medium,Kanika Dhingra,2026-08-03,2026-08-28,0,8,Sprint 18,python;data-viz;KPI
+AN-401,NOVA-55,Campaign attribution requirements (BRD),AdNova Media,Attribution & Reporting,Requirements Doc,Done,Critical,Kanika Dhingra,2026-05-25,2026-06-16,100,8,Sprint 12,requirements;attribution
+AN-402,NOVA-61,ROAS reporting dashboard,AdNova Media,Attribution & Reporting,Analytics Dashboard,Done,High,Kanika Dhingra,2026-06-08,2026-06-26,100,8,Sprint 13,python;data-viz;ROAS
+AN-403,NOVA-68,Attribution business rules catalog,AdNova Media,Attribution & Reporting,Business Rules,In Review,High,Kanika Dhingra,2026-06-29,2026-07-23,85,8,Sprint 15,rules;logic
+AN-404,NOVA-72,Ad-platform API integration user stories,AdNova Media,Attribution & Reporting,User Stories,In Progress,Medium,Kanika Dhingra,2026-07-13,2026-08-06,35,5,Sprint 16,agile;API
+AN-405,NOVA-79,Regression UAT scenarios,AdNova Media,Attribution & Reporting,UAT Plan,Blocked,High,Kanika Dhingra,2026-07-06,2026-07-19,50,5,Sprint 15,testing;UAT
+AN-406,NOVA-84,Post-launch benefits realization plan,AdNova Media,Attribution & Reporting,Business Case,Backlog,Low,Kanika Dhingra,2026-08-10,2026-09-04,0,5,Sprint 18,business-case;metrics

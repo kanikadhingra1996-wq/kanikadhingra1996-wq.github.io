@@ -1,0 +1,2 @@
+pandas>=2.0
+requests>=2.31   ; only needed when USE_AIRTABLE or USE_JIRA is enabled
