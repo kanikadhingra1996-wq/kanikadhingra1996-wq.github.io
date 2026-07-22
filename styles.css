@@ -429,10 +429,13 @@ code { font-family: var(--font-mono); font-size: .88em; }
 .wa-label { font-size: 12.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-faint); }
 .wa-countries { display: flex; justify-content: center; gap: clamp(28px, 6vw, 56px); flex-wrap: wrap; margin-top: 20px; }
 .wa-country { display: flex; align-items: center; gap: 14px; text-align: left; }
+.wa-mapwrap { position: relative; display: inline-flex; flex: none; }
 .wa-map { width: 84px; height: 64px; flex: none;
   -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
   -webkit-mask-position: center; mask-position: center;
   -webkit-mask-size: contain; mask-size: contain; mask-mode: alpha; }
+/* Ashoka Chakra — navy wheel centered on India's white band */
+.wa-chakra { position: absolute; top: 46.2%; left: 42.9%; transform: translate(-50%, -50%); width: 14px; height: 14px; pointer-events: none; }
 /* filled with flag colors for fun */
 .wa-map.wa-us {
   background-image:
@@ -444,10 +447,7 @@ code { font-family: var(--font-mono); font-size: .88em; }
   -webkit-mask-image: url(assets/maps/us.svg); mask-image: url(assets/maps/us.svg);
 }
 .wa-map.wa-in {
-  background-image:
-    radial-gradient(circle at 50% 50%, #000080 0 1.1px, transparent 1.1px 2px, #000080 2px 2.9px, transparent 2.9px),
-    linear-gradient(to bottom, #ff9933 0 33.33%, #ffffff 33.33% 66.66%, #138808 66.66% 100%);
-  background-repeat: no-repeat, no-repeat;
+  background-image: linear-gradient(to bottom, #ff9933 0 33.33%, #ffffff 33.33% 66.66%, #138808 66.66% 100%);
   -webkit-mask-image: url(assets/maps/in.svg); mask-image: url(assets/maps/in.svg);
 }
 .wa-txt strong { display: block; font-size: 15px; color: var(--ink); }
