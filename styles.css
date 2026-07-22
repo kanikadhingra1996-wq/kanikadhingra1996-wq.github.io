@@ -436,7 +436,7 @@ code { font-family: var(--font-mono); font-size: .88em; }
   -webkit-mask-size: contain; mask-size: contain; mask-mode: alpha; }
 /* Ashoka Chakra — navy wheel centered on India's white band */
 /* centered in the white band, sized so the rim touches both white boundary lines */
-.wa-chakra { position: absolute; top: 50%; left: 42.9%; transform: translate(-50%, -50%); width: 27px; height: 27px; pointer-events: none; }
+.wa-chakra { position: absolute; top: 50%; left: 40.5%; transform: translate(-50%, -50%); width: 27px; height: 27px; pointer-events: none; }
 /* filled with flag colors for fun */
 .wa-map.wa-us {
   background-image:
