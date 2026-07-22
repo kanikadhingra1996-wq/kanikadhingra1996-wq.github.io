@@ -433,8 +433,20 @@ code { font-family: var(--font-mono); font-size: .88em; }
   -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
   -webkit-mask-position: center; mask-position: center;
   -webkit-mask-size: contain; mask-size: contain; mask-mode: alpha; }
-.wa-map.wa-us { background: var(--ok); -webkit-mask-image: url(assets/maps/us.svg); mask-image: url(assets/maps/us.svg); }
-.wa-map.wa-in { background: var(--accent); -webkit-mask-image: url(assets/maps/in.svg); mask-image: url(assets/maps/in.svg); }
+/* filled with flag colors for fun */
+.wa-map.wa-us {
+  background-image:
+    linear-gradient(#3c3b6e, #3c3b6e),
+    repeating-linear-gradient(to bottom, #b22234 0 7.69%, #ffffff 7.69% 15.38%);
+  background-size: 42% 53.8%, 100% 100%;
+  background-position: left top, left top;
+  background-repeat: no-repeat, no-repeat;
+  -webkit-mask-image: url(assets/maps/us.svg); mask-image: url(assets/maps/us.svg);
+}
+.wa-map.wa-in {
+  background-image: linear-gradient(to bottom, #ff9933 0 33.33%, #ffffff 33.33% 66.66%, #138808 66.66% 100%);
+  -webkit-mask-image: url(assets/maps/in.svg); mask-image: url(assets/maps/in.svg);
+}
 .wa-txt strong { display: block; font-size: 15px; color: var(--ink); }
 .wa-txt small { font-size: 12.5px; color: var(--ink-faint); }
 .footer { max-width: var(--maxw); margin: 0 auto; padding: 40px clamp(18px,4vw,40px); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--ink-faint); border-top: 1px solid var(--line); }
